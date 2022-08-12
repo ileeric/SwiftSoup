@@ -178,7 +178,7 @@ public class Whitelist {
      @see #simpleText()
      @see #relaxed()
      */
-    init() {
+    public init() {
         tagNames = Set<TagName>()
         attributes = Dictionary<TagName, Set<AttributeKey>>()
         enforcedAttributes = Dictionary<TagName, Dictionary<AttributeKey, AttributeValue>>()
